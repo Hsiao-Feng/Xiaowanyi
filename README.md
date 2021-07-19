@@ -1,2 +1,7 @@
 # Xiaowanyi
-Xiaowanyi is Chinese pinyin of the word "gadgets". 这里存放一些小玩意。
+这里存放一些自己写的 **小玩意** ，因为不值得单独开一个仓库所以存放在这里。
+
+## threeD
+
+[threeD](threeD)是一个模拟中国福利彩票3D游戏的程序，可以给定你想要模拟的总期数后由程序打印模拟的总开销、总中奖金额和利润。
+
