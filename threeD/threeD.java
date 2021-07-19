@@ -14,15 +14,12 @@ public class threeD{
             term++;
             bet = creatNum();
             winNum = creatNum();
-            if(bet == winNum){
-                prize += 1000;
-                winTime ++;
-            }
+            if(bet == winNum) prize += 1000;
             System.out.println(term + " " + bet +" "+winNum);
         }
         int income = term*(-2) + prize;
         long endTime = System.currentTimeMillis() ;
-        System.out.println("共进行 "+term+" 期\n花费 "+term*(-2)+" 元\n赢得 "+prize+" 元\n总收益 "+income+" 元\n计算用时 "+ (endTime - startTime) +"ms");
+        System.out.println("共进行 "+term+" 期\n花费 "+term*2+" 元\n赢得 "+prize+" 元\n总收益 "+income+" 元\n计算用时 "+ (endTime - startTime) +"ms");
         scan.close();
     }
 
