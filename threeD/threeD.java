@@ -25,9 +25,6 @@ public class threeD{
 
     public static int creatNum(){
         Random num = new Random();
-        int numH = num.nextInt(10);
-        int numT = num.nextInt(10);
-        int numD = num.nextInt(10);
-        return numH*100 + numT*10 + numD;
+        return num.nextInt(1000);
     }
 }
