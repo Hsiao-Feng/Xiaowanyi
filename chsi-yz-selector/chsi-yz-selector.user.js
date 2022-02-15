@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         中国研究生招生信息网—硕士专业目录便捷选择器
 // @namespace    https://hsiaofeng.com/
-// @version      0.1
+// @version      0.2
 // @description  将学科类别选择的下拉框替换为搜索框。
 // @author       Hsiao Feng
 // @match        https://yz.chsi.com.cn/zsml/*
@@ -38,7 +38,9 @@
     function handleInput(e) {                            //当“学科”输入框发生更改时
         let value = e.target.value;                      //获取“学科”输入框的值（学科代码）
         selector.setAttribute('value', value);           //把该代码传给下拉框
-        initZy();                                        //查询该学科专业，使“专业”下拉框更新
+        if(value.length == 4) {                          //如果“学科”输入框的值长度为 4，即为学科代码
+            initZy();                                    //查询该学科专业，使“专业”下拉框更新
+        }
     }
 
 })();
