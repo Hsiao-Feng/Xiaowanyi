@@ -11,3 +11,7 @@
 ## chsi-yz-selector
 
 [中国研究生招生信息网—硕士专业目录便捷选择器](chsi-yz-selector)是一款 Tampermonkey 插件，修改了中国研究生招生信息网的[硕士专业目录查询页面](https://yz.chsi.com.cn/zsml/queryAction.do)的交互以更方便地查找学科类别。
+
+## OPAC-Analy
+
+汇文图书管理系统的小插件。使用 ECharts 替换汇文图书查询系统的“借阅趋势” Flash 图表。

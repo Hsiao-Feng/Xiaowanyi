@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         中国研究生招生信息网—硕士专业目录便捷选择器
-// @namespace    https://hsiaofeng.com/
+// @namespace    https://hsiaofeng.com/plugin/chsi-yz-selector/
 // @version      0.3
 // @description  将学科类别选择的下拉框替换为搜索框。
 // @author       Hsiao Feng
